@@ -84,6 +84,26 @@ For development with hot reload:
 npm run dev
 ```
 
+## Demo
+
+### Text generation
+1. Open a note or create a new one
+2. Type or select a prompt (e.g., "Describe a fantasy tavern")
+3. Run **Pollinations: Generate text at cursor** (or use the ribbon icon)
+4. The generated text is inserted at the cursor position
+
+### Image generation
+1. Select an image prompt (e.g., "A cyberpunk city at night")
+2. Run **Pollinations: Generate image from selection**
+3. The PNG is saved to your vault and embedded as `![[pollinations_cyberpunk-city_1234567890.png]]`
+
+### Device flow (BYOP)
+1. Get a `pk_...` publishable key from [enter.pollinations.ai/keys](https://enter.pollinations.ai/keys)
+2. Paste it in **Settings → Plugin Options → Pollinations AI → API Key**
+3. Run **Pollinations: Authenticate with device flow**
+4. A notice shows the verification URL + code — open it in a browser and approve
+5. Your access token is stored and used for all subsequent requests
+
 ## License
 
 MIT
