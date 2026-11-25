@@ -1,5 +1,7 @@
 # Pollinations AI for Obsidian
 
+[![CI](https://github.com/g33ky00/obsidian-pollinations/actions/workflows/ci-unified.yml/badge.svg)](https://github.com/g33ky00/obsidian-pollinations/actions/workflows/ci-unified.yml)
+
 > Plugin Obsidian générant du texte et des images avec [Pollinations AI](https://pollinations.ai) directement dans vos notes, en payant avec vos propres Pollen (BYOP — Bring Your Own Pollen).
 
 [![Language](https://img.shields.io/badge/TypeScript-5.6-3178c6?logo=typescript&logoColor=white)](./tsconfig.json)
@@ -210,3 +212,15 @@ Ce projet est sous licence **MIT**. Voir [`LICENSE`](./LICENSE).
 ## Quest
 
 This plugin fulfills [Quest #15574](https://github.com/pollinations/pollinations/issues/15574) — _[QUEST] Pollinations plug-in for Obsidian_
+
+## About
+
+Projet maintenu par g33ky00.
+
+## Contributing
+
+Les contributions sont les bienvenues via pull request.
+
+## License
+
+MIT
