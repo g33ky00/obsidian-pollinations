@@ -1,5 +1,7 @@
 # Pollinations AI for Obsidian
 
+**Version: 1.0.0**
+
 [![CI](https://github.com/g33ky00/obsidian-pollinations/actions/workflows/ci-unified.yml/badge.svg)](https://github.com/g33ky00/obsidian-pollinations/actions/workflows/ci-unified.yml)
 
 > Plugin Obsidian générant du texte et des images avec [Pollinations AI](https://pollinations.ai) directement dans vos notes, en payant avec vos propres Pollen (BYOP — Bring Your Own Pollen).
