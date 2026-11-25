@@ -4,7 +4,7 @@ import { Notice } from 'obsidian';
 import PolinationsPlugin from '../main';
 
 export class PollinationsImageCommand {
-	private plugin: PollinationsPlugin;
+	private plugin: PolinationsPlugin;
 
 	constructor(plugin: PolinationsPlugin) {
 		this.plugin = plugin;
@@ -72,16 +72,8 @@ export class PollinationsImageCommand {
 	/** Prompt the user for text input */
 	private async promptForText(label: string): Promise<string | null> {
 		return new Promise<string | null>((resolve) => {
-			this.plugin.app.facade.openPrompt({
-				title: label,
-				placeholder: 'Enter your image prompt...',
-				input: {
-					sign: false,
-					password: false,
-				},
-				submit: (value: string) => resolve(value),
-				cancel: () => resolve(null),
-			});
+			const value = window.prompt(label, '');
+		 resolve(value);
 		});
 	}
 }

@@ -5,7 +5,7 @@ import PolinationsPlugin from '../main';
 import { ModelInfo } from './pollinations-client';
 
 export class ModelPicker {
-	private plugin: PollinationsPlugin;
+	private plugin: PolinationsPlugin;
 
 	constructor(plugin: PolinationsPlugin) {
 		this.plugin = plugin;

@@ -46,7 +46,7 @@ export default class PollinationsPlugin extends Plugin {
 		this.addCommand({
 			id: 'pollinations-generate-text',
 			name: 'Generate text at cursor',
-			editorAction: (editor: Editor) => 'Pollinations',
+			editorCallback: (editor: Editor) => { /* Pollinations */ },
 			callback: () => this.textCommand.run(),
 		});
 
@@ -54,7 +54,7 @@ export default class PollinationsPlugin extends Plugin {
 		this.addCommand({
 			id: 'pollinations-generate-image',
 			name: 'Generate image from selection',
-			editorAction: (editor: Editor) => 'Pollinations',
+			editorCallback: (editor: Editor) => { /* Pollinations */ },
 			callback: () => this.imageCommand.run(),
 		});
 

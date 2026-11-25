@@ -4,7 +4,7 @@ import { App, PluginSettingTab, Setting } from 'obsidian';
 import PolinationsPlugin from '../main';
 
 export class PollinationsSettingTab extends PluginSettingTab {
-	plugin: PollinationsPlugin;
+	plugin: PolinationsPlugin;
 
 	constructor(app: App, plugin: PolinationsPlugin) {
 		super(app, plugin);

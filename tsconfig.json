@@ -5,12 +5,23 @@
     "moduleResolution": "Node",
     "strict": true,
     "esModuleInterop": true,
-    "skipLibCheck": true,
+    "skipLibCheck": false,
     "forceConsistentCasingInFileNames": true,
     "outDir": "dist",
-    "lib": ["ES2020"],
-    "types": ["obsidian"]
+    "lib": [
+      "ES2020",
+      "DOM"
+    ],
+    "types": [
+      "obsidian"
+    ]
   },
-  "include": ["main.ts", "src/**/*.ts"],
-  "exclude": ["node_modules", "dist"]
+  "include": [
+    "main.ts",
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
 }
