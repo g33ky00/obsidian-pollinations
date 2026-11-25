@@ -50,16 +50,8 @@ export class PollinationsTextCommand {
 	/** Prompt the user for text input via a modal */
 	private async promptForText(label: string): Promise<string | null> {
 		return new Promise<string | null>((resolve) => {
-			this.plugin.app.facade.openPrompt({
-				title: label,
-				placeholder: 'Enter your prompt...',
-				input: {
-					sign: false,
-					password: false,
-				},
-				submit: (value: string) => resolve(value),
-				cancel: () => resolve(null),
-			});
+			const value = window.prompt(label, '');
+			resolve(value);
 		});
 	}
 
