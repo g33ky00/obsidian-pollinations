@@ -24,15 +24,15 @@
 - [Changelog](#changelog)
 - [Roadmap](#roadmap)
 
-## À propos
+## About
 
-- **Quoi** : plugin Obsidian (id `obsidian-pollinations`) permettant de générer du texte à la position du curseur et des images sauvegardées dans le vault, via l'API Pollinations.
-- **Pour qui** : utilisateurs d'Obsidian souhaitant intégrer la génération IA dans leurs notes sans quitter l'éditeur.
-- **Pourquoi** : éviter la copie-coller depuis des outils externes et garder les générations versionnées dans le vault.
-- **Qui** : auteur/mainteneur `g33ky00` ([github.com/g33ky00](https://github.com/g33ky00)).
-- **Contacts** : dépôt GitHub [g33ky00/obsidian-pollinations](https://github.com/g33ky00/obsidian-pollinations).
+- **What**: Obsidian plugin (id `obsidian-pollinations`) that generates text at the cursor position and images saved in the vault, via the Pollinations API.
+- **Who**: Obsidian users wanting to integrate AI generation into their notes without leaving the editor.
+- **Why**: avoid copy-pasting from external tools and keep generations versioned in the vault.
+- **Who**: author/maintainer `g33ky00` ([github.com/g33ky00](https://github.com/g33ky00)).
+- **Contacts**: GitHub repository [g33ky00/obsidian-pollinations](https://github.com/g33ky00/obsidian-pollinations).
 
-## Structure du dépôt
+## Structure
 
 ```text
 obsidian-pollinations/
@@ -54,7 +54,7 @@ obsidian-pollinations/
 └── README.md
 ```
 
-## Stack technique
+## Stack
 
 | Composant | Version | Source |
 |-----------|---------|--------|
@@ -149,22 +149,22 @@ npm run dev
 - Validation des entrées utilisateur avant appel API.
 - Requêtes HTTPS uniquement vers les endpoints Pollinations.
 
-## Contribution
+## Contributing
 
-### Conventions de commit
+### Commit conventions
 
 | Préfixe | Usage |
 |---------|-------|
-| `feat:` | Nouvelle fonctionnalité |
-| `fix:` | Correction |
+| `feat:` | New feature |
+| `fix:` | Bug fix |
 | `docs:` | Documentation |
 | `chore:` | Maintenance |
 
-Processus : forker, créer une branche, committer selon les conventions, ouvrir une PR.
+Process: fork, create a branch, commit following conventions, open a PR.
 
-## Licence
+## License
 
-Ce projet est sous licence **MIT**. Voir [`LICENSE`](./LICENSE).
+This project is licensed under **MIT**. See [`LICENSE`](./LICENSE).
 
 ## Changelog
 
@@ -217,11 +217,11 @@ This plugin fulfills [Quest #15574](https://github.com/pollinations/pollinations
 
 ## About
 
-Projet maintenu par g33ky00.
+Project maintained by g33ky00.
 
 ## Contributing
 
-Les contributions sont les bienvenues via pull request.
+Contributions are welcome via pull request.
 
 ## License
 
